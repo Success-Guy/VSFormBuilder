@@ -201,6 +201,7 @@
                 'data': param
             };
             this.fromJson.push(send);
+            return this;
         },
         generate: function () {
             var form = this.fromJson;
